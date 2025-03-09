@@ -178,3 +178,37 @@ body {
   height: 40px;
   background: #4e75ff;
 }
+
+/*========task 6=======*/
+
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  color: #2e2f42;
+}
+
+#controls button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fff;
+}
+
+#controls button:nth-child(3) {
+  background: #ff4e4e;
+}
